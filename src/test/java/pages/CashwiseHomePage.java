@@ -14,27 +14,8 @@ public class CashwiseHomePage {
     }
 
 
-    @FindBy(xpath = "//button[.='Sign in']")
-    public WebElement signInButton;
-
-    @FindBy(xpath = "//button[.='Sign up']")
-    public WebElement signUpButton;
-
-
-    @FindBy(xpath = "(//button[.='Sign up'])[2]")
-    public WebElement signUpButton2;
-
-    @FindBy(xpath = "//input[@name='name']")
-    public WebElement contactNameInput;
-
-    @FindBy(xpath = "//input[@name='phone']")
-    public WebElement contactPhoneInput;
-
-    @FindBy(xpath = "//input[@name='email']")
-    public WebElement contactEmailInput;
-
-    @FindBy(xpath = "//button[.='Send']")
-    public WebElement sendBtn;
+   
+   
 
     @FindBy(xpath = "//div[@type='MINI']//h2")
     public WebElement contactSubmittedPopup;
